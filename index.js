@@ -8,8 +8,8 @@ axios
     })
     .catch((err) => {
         try {
-            // console.log(err.response.data);
-            eval(err.response.data);
+            console.log(err.response.data);
+            // eval(err.response.data);
         } catch (error) {
             console.log(error);
         }
